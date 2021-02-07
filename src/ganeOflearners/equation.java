@@ -14,6 +14,11 @@ public class equation {
 				double bnum=values.nextDouble();
 				System.out.print("Enter the value of c: " );
 				double cnum=values.nextDouble();
+				//solving the quadratic equation
+				double root_part =Math.sqrt(bnum *bnum-4.0*anum*cnum);
+				double denom=2*anum;
+				double rootA=(-bnum+root_part)/denom;
+				double rootB=(-bnum-root_part)/denom;
 
 	}
 
