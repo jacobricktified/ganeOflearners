@@ -19,6 +19,12 @@ public class equation {
 				double denom=2*anum;
 				double rootA=(-bnum+root_part)/denom;
 				double rootB=(-bnum-root_part)/denom;
+				//printing the results
+				System.out.print("Root A  is : " +rootA);
+				System.out.println("Root B is: "+rootB);
+		System.out.println("The answer is :" +getx( rootA, rootB));
+		        
+		    }
 
 	}
 
