@@ -25,6 +25,7 @@ public class equation {
 		System.out.println("The answer is :" +getx( rootA, rootB));
 		        
 		    }
+	//writing the getx function
 	public static double getx(double rootA, double rootB){
         if(rootB>rootA){
             return rootB;
